@@ -1,0 +1,56 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #104214;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #687909;
+  padding: 170px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upload-section {
+  background-color: #c3cf14;
+  margin-bottom: 50px;
+}
+
+.image-preview {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid #dbd034;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #f14251;
+  color: rgb(150, 29, 29);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+.button:hover {
+  background-color: #27ae60;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d1103;
+}
